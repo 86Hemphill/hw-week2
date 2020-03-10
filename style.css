@@ -1,5 +1,6 @@
 .container {
     color: white;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 body {
@@ -11,18 +12,20 @@ body {
 .navbar {
     background-color: #306455 !important;
     margin-bottom: 20px;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 #profile {
-display:block;
-margin-left:auto;
-margin-right:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0px -10px 30px rgb(208, 225, 225, .3);
+    border-radius: 10px;
 }
 
 .jumbotron {
     color:  white;
-    background-color: rgba(208, 225, 225, 0.2)
-    !important;
+    background-color: rgba(208, 225, 225, 0.2) !important;
 }
 
 .btn-primary,
@@ -107,6 +110,6 @@ margin-right:auto;
 .hero-text button {
     background-color: #306455;
     color: white;
-    width: 320px;
+    width: 318px;
     height: 40px;
 }
