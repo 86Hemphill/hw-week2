@@ -29,12 +29,17 @@ body {
 }
 
 .btn-primary,
-.btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
     background-color: #306455 !important;
     border-color: #306455 !important;
+
+}
+
+.btn-primary:hover {
+    color: silver !important;
+
 }
 
 .hero-image1 {
@@ -97,19 +102,21 @@ body {
     margin-bottom: 10px;
 }
 
-.hero-text {
-        text-align: center;
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-      
-}
 
-.hero-text button {
+.imgtext a {
+    text-align: center;
     background-color: #306455;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 3px;
+    height: 25px;
     color: white;
-    width: 318px;
-    height: 40px;
+    
+}   
+
+.imgtext a:hover {
+    color: silver;
+    text-decoration: none;
 }
