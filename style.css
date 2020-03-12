@@ -8,6 +8,20 @@ body {
     background-size: cover;
   }
 
+p {
+    text-indent: 20px;
+    text-shadow: 
+        -1px -1px 0px rgb(100, 100, 100),
+         0px -1px 0px rgb(100, 100, 100),
+         1px -1px 0px rgb(100, 100, 100),
+        -1px  0px 0px rgb(100, 100, 100),
+         1px  0px 0px rgb(100, 100, 100),
+        -1px  1px 0px rgb(100, 100, 100),
+         0px  1px 0px rgb(100, 100, 100),
+         1px  1px 0px rgb(100, 100, 100);
+
+}
+
 
 .navbar {
     background-color: #306455 !important;
@@ -43,7 +57,7 @@ body {
 }
 
 .hero-image1 {
-    background-image: url("https://86hemphill.github.io/hw-week1/assets/images/digital-marketing-meeting.jpg");
+    background-image: url("assets/digital-marketing-meeting.jpg");
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
