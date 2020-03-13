@@ -134,3 +134,11 @@ p {
     color: silver;
     text-decoration: none;
 }
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:  white;
+    background-color: rgba(48, 100, 85, .6) !important;
+}
